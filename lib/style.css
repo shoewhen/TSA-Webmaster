@@ -14,6 +14,16 @@
     src: url('components/Quick.otf');
 }
 
+@font-face {
+    font-family: 'Inconsolata';
+    src: ('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
 body {
     height: 400vh;
     width: 100%;
@@ -41,7 +51,7 @@ header h1 {
 }
 
 .navigation a {
-    font-family: 'Salsa';
+    font-family: 'Poppins';
 
 }
 
