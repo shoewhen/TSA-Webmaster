@@ -4,3 +4,25 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 400vh;
+    width: 100%;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
