@@ -20,7 +20,9 @@ header {
     height: auto;
 }
 
-.intro {
+#intro {
     height: 100vh;
     text-align: center;
+    display: grid;
+    align-items: center;
 }
