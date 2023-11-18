@@ -5,32 +5,20 @@
 }
 
 @font-face {
-    font-family: 'Bellenia Love';
-    src: url('components/Bellenia\ Love.otf');
-}
-
-@font-face {
     font-family: 'Quick';
     src: url('components/Quick.otf');
 }
 
 @font-face {
     font-family: 'Inconsolata';
-    src: ('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    src: url('components/Inconsolata.otf');
 }
 
 body {
     height: 400vh;
     width: 100%;
     display: block;
-    background-color: #b5c99a;
-    ;
-    ;
+    background-color:#b8dbb1;
 }
 
 header {
@@ -41,6 +29,7 @@ header {
     width: 100%;
     height: auto;
     display: flex;
+    color: white;
 }
 
 header h1 {
@@ -51,13 +40,27 @@ header h1 {
 }
 
 .navigation a {
-    font-family: 'Poppins';
-
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 30px;
 }
 
 #intro {
+    font-family: 'Inconsolata';
     height: 100vh;
     text-align: center;
     display: grid;
     align-items: center;
+    color: white;
+}
+
+.intro {
+    width: fit-content;
+    padding: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    /* This is not necessary I was just messing around */
+    border-radius: 50px;
+    box-shadow:  20px 20px 60px #9cba96, -20px -20px 60px #d4fccc;
 }
