@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Bellenia Love';
+    src: url(components/Bellenia\ Love.otf);
+}
+
 body {
     height: 400vh;
     width: 100%;
@@ -11,13 +16,13 @@ body {
 }
 
 header {
-    display: flex;
     justify-content: space-between;
     align-items: baseline;
     padding: 20px;
     position: fixed;
     width: 100%;
     height: auto;
+    display: flex;
 }
 
 #intro {
