@@ -9,6 +9,11 @@
     src: url('components/Bellenia\ Love.otf');
 }
 
+@font-face {
+    font-family: 'Quick';
+    src: url('components/Quick.otf');
+}
+
 body {
     height: 400vh;
     width: 100%;
@@ -17,7 +22,7 @@ body {
 
 header {
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     padding: 20px 50px;
     position: fixed;
     width: 100%;
@@ -27,9 +32,14 @@ header {
 
 header h1 {
     margin-top: 20px;
-    font-family: 'Bellenia Love';
+    font-family: 'Quick';
     letter-spacing: 0.1em;
-    font-size: 3em;
+    font-size: 1.25em;
+}
+
+.navigation a {
+    font-family: 'Salsa';
+
 }
 
 #intro {
